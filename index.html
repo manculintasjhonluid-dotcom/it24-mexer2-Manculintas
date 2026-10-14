@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Directory</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>User Directory</h1>
+        <p>Users retrieved from JSONPlaceholder API</p>
+    </header>
+
+    <main>
+        <button id="loadBtn">Load Users</button>
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search users by name..."
+            aria-label="Search users by name"
+        >
+
+        <p id="status" role="status">Click Load Users to begin.</p>
+
+        <div id="userList" class="user-list"></div>
+    </main>
+
+</body>
+</html>
